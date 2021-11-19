@@ -1,4 +1,4 @@
-import NoDataImage from '../assets/image/no-data.jpg';
+import NoDataImage from '../assets/image/noData.jpg';
 import useStyles from '../styles';
 
 export const NoData = () => {
