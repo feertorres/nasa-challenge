@@ -158,24 +158,22 @@ export const Home = () => {
         </Container>
       )}
 
-      {!!roverPhotos.length && (
-        <Container
-          maxWidth={false}
-          sx={{
-            display: 'flex',
-            flexFlow: 'row wrap',
-            justifyContent: 'center'
-          }}
-        >
-          <Pagination
-            count={5}
-            color="primary"
-            onChange={handleChangePage}
-            hideNextButton={!roverPhotos.length}
-            size="large"
-          />
-        </Container>
-      )}
+      <Container
+        maxWidth={false}
+        sx={{
+          display: 'flex',
+          flexFlow: 'row wrap',
+          justifyContent: 'center'
+        }}
+      >
+        <Pagination
+          count={5}
+          color="primary"
+          onChange={handleChangePage}
+          hideNextButton={!roverPhotos.length}
+          size="large"
+        />
+      </Container>
     </Container>
   );
 };
