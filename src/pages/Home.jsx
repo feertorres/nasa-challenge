@@ -6,11 +6,11 @@ import { PhotosSkeleton } from '../components/PhotosSkeleton';
 import { useFetch } from '../hooks/useFetch';
 import { MediaCard } from '../components/MediaCard';
 import { Filters } from '../components/Filters';
-import { nanoid } from 'nanoid';
+import { NoData } from '../components/NoData';
 
+import { nanoid } from 'nanoid';
 import moment from 'moment';
 import useStyles from '../styles';
-import { NoData } from '../components/NoData';
 
 export const Home = () => {
   const [camera, setCamera] = useState('');
