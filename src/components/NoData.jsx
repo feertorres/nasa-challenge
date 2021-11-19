@@ -1,4 +1,3 @@
-import NoDataImage from '../assets/image/noData.jpg';
 import useStyles from '../styles';
 
 export const NoData = () => {
@@ -6,7 +5,10 @@ export const NoData = () => {
 
   return (
     <div style={classes.noDataImageContainer}>
-      <img style={classes.noDataImage} src={NoDataImage} />
+      <img
+        style={classes.noDataImage}
+        src="https://res.cloudinary.com/drkf21lrz/image/upload/v1637340995/3973481_pwtlse.jpg"
+      />
     </div>
   );
 };
